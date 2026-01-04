@@ -45,6 +45,6 @@ describe("KYC – webhook idempotency", () => {
     });
 
     expect(first.status).toBe("APPROVED");
-    expect(second.lastProviderEventId).toBe("evt_1234");
+    expect(second.lastProviderEventId).toBe("evt_123");
   });
 });

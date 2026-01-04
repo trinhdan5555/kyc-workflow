@@ -34,6 +34,6 @@ describe("KYC – document workflow", () => {
       ref: "selfie_ref",
     });
 
-    expect(finalDoc.status).toBe("PENDING_REVIEW1");
+    expect(finalDoc.status).toBe("PENDING_REVIEW");
   });
 });
